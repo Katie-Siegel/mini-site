@@ -1,6 +1,6 @@
 /* Global styles */
 body {
-  color: #524f4f;
+  color: #001011;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
 }
@@ -8,7 +8,7 @@ body {
 header,
 article,
 footer {
-  background: #F5C4C4;
+  background: #82dce7;
   display: flex;
   justify-content: center;
 }
@@ -24,14 +24,15 @@ header {
 }
 
 header .content-wrapper {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
   font-family: 'Play', sans-serif;
   /* Font-size can be adjusted for mobile so that your name fits on a single row. */
   font-size: 3rem;
+  color: #093a3e;
 }
 
 h2 {
@@ -45,7 +46,7 @@ article .content-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: rgba(252, 240, 240, 0.2);
+  background: #2fb5bc;
   padding: 70px 0;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -66,7 +67,7 @@ article .content-wrapper {
 .profile-description {
   width: 80%;
   padding-bottom: 20px;
-  border-bottom: 5px solid #F5C4C4;
+  border-bottom: 5px solid #e27396;
 }
 
 /* Footer styles */
@@ -75,12 +76,11 @@ footer {
 }
 
 footer .content-wrapper {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
-
   header .content-wrapper {
     justify-content: flex-start;
   }
@@ -98,5 +98,4 @@ justify-content: center;
   .profile-description {
     width: 45%;
   }
-
 }
